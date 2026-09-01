@@ -1,0 +1,240 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs16 001 - Atributo: \cf2\b0 ANO\cf1\b 
+\par \cf0\b0 MODELOS CITA ANO
+\par 
+\par \cf1\b 002 - Atributo: \cf2\b0 ANO_FABRICADO\cf1\b 
+\par \cf0\b0 VEICULO CITA ANO FABRICADO
+\par 
+\par \cf1\b 003 - Atributo: \cf2\b0 ANO_FABRICADO\cf1\b 
+\par \cf0\b0 MARCAS CITA ANO FABRICADO
+\par 
+\par \cf1\b 004 - Atributo: \cf2\b0 BOLETO\cf1\b 
+\par \cf0\b0 PAGAMENTOS CITA BOLETO
+\par 
+\par \cf1\b 005 - Atributo: \cf2\b0 CARGO\cf1\b 
+\par \cf0\b0 FUNCIONARIOS CITA CARGO
+\par 
+\par \cf1\b 006 - Entidade: \cf2\b0 CLIENTE\cf1\b 
+\par \cf0\b0 CLIENTE TEM QUE DIZER IDADE, CPF, ENDERECO, PRAZO DESEJADO, NOME 
+\par \cf1\b 007 - Rela\f1\'e7\'e3o: \cf2\b0 CONTEM\cf1\b 
+\par \cf0\b0\f0 MARCAS CONTEM MODELOS
+\par 
+\par \cf1\b 008 - Atributo: \cf2\b0 COR\cf1\b 
+\par \cf0\b0 MODELOS CITA COR
+\par 
+\par \cf1\b 009 - Atributo: \cf2\b0 CPF\cf1\b 
+\par \cf0\b0 CLIENTE CITA CPF PARA VEICULOS
+\par 
+\par \cf1\b 010 - Atributo: \cf2\b0 CPF\cf1\b 
+\par \cf0\b0 FUNCIONARIOS CITA CPF
+\par 
+\par \cf1\b 011 - Atributo: \cf2\b0 CREDITO\cf1\b 
+\par \cf0\b0 PAGAMENTOS CITA CREDITO
+\par 
+\par \cf1\b 012 - Atributo: \cf2\b0 CRIADOR\cf1\b 
+\par \cf0\b0 MARCAS CITA CRIADOR
+\par 
+\par \cf1\b 013 - Atributo: \cf2\b0 DATA_COMPRADA\cf1\b 
+\par \cf0\b0 VEICULO CITA DATA COMPRADA
+\par 
+\par \cf1\b 014 - Atributo: \cf2\b0 DATA_ENTREGA\cf1\b 
+\par \cf0\b0 FORNECEDORES CITA DATA ENTREGA
+\par 
+\par \cf1\b 015 - Atributo: \cf2\b0 DATA_FABRICACAO\cf1\b 
+\par \cf0\b0 MARCAS CITA DATA FABRICACAO
+\par 
+\par \cf1\b 016 - Atributo: \cf2\b0 DATA_NASCIMENTO\cf1\b 
+\par \cf0\b0 FUNCIONARIOS CITA DATA NASCIMENTO
+\par 
+\par \cf1\b 017 - Atributo: \cf2\b0 DATA_PEDIDO\cf1\b 
+\par \cf0\b0 FORNECEDORES CITA DATA PEDIDO
+\par 
+\par \cf1\b 018 - Atributo: \cf2\b0 DEBITO\cf1\b 
+\par \cf0\b0 PAGAMENTOS CITA DEBITO
+\par 
+\par \cf1\b 019 - Atributo: \cf2\b0 DINHEIRO\cf1\b 
+\par \cf0\b0 PAGAMENTOS CITA DINHEIRO
+\par 
+\par \cf1\b 020 - Atributo: \cf2\b0 ENDERECO\cf1\b 
+\par \cf0\b0 CLIENTE CITA ENDERECO PARA VEICULO
+\par 
+\par \cf1\b 021 - Atributo: \cf2\b0 ENDERECO\cf1\b 
+\par \cf0\b0 PAGAMENTOS CITA ENDERECO PARA FORNECEDORES
+\par 
+\par \cf1\b 022 - Rela\f1\'e7\'e3o: \cf2\b0 ENTREGA\cf1\b 
+\par \cf0\b0\f0 FUNCIONARIOS ENTREGA SERVICOS
+\par 
+\par \cf1\b 023 - Rela\f1\'e7\'e3o: \cf2\b0 EXISTE\cf1\b 
+\par \cf0\b0\f0 SERVICO EXISTE PECAS
+\par 
+\par \cf1\b 024 - Atributo: \cf2\b0 FABRICANTE\cf1\b 
+\par \cf0\b0 MARCAS CITA FABRICANTE
+\par 
+\par \cf1\b 025 - Rela\f1\'e7\'e3o: \cf2\b0 FAZ\cf1\b 
+\par \cf0\b0\f0 PECAS FAZ ORDEM SERVICOS
+\par 
+\par \cf1\b 026 - Entidade: \cf2\b0 FORNECEDORES\cf1\b 
+\par \cf0\b0 PAGAMENTOS PRECISA FORNECEDORES: ENDERECO, DATA PEDIDO, DATA ENTREGA, GARANTIA, QUANTIDADE PECAS
+\par 
+\par \cf1\b 027 - Entidade: \cf2\b0 FUNCIONARIOS\cf1\b 
+\par \cf0\b0 MODELOS POSSUI FUNCIONARIOS QUE TEM: DATA NASCIMENTO, HORARIO TRABALHO, CPF, NOME, CARGO
+\par 
+\par \cf1\b 028 - Atributo: \cf2\b0 GARANTIA\cf1\b 
+\par \cf0\b0 FORNECEDORES CITA GARANTIA
+\par 
+\par \cf1\b 029 - Atributo: \cf2\b0 HORARIO\cf1\b 
+\par \cf0\b0 ORDEM DE SERVICO CITA HORARIO
+\par 
+\par \cf1\b 030 - Atributo: \cf2\b0 HORARIO_ENTREGAS\cf1\b 
+\par \cf0\b0 ORDENS SERVICO CITA HORARIO ENTREGAS
+\par 
+\par \cf1\b 031 - Atributo: \cf2\b0 HORARIO_TRABALHO\cf1\b 
+\par \cf0\b0 FUNCIONARIO CITA HORARIO TRABALHO
+\par 
+\par \cf1\b 032 - Atributo: \cf2\b0 HORAS_TRABALHADAS\cf1\b 
+\par \cf0\b0 ORDENS SERVICOS CITA HORAS TRABALHADAS
+\par 
+\par \cf1\b 033 - Atributo: \cf2\b0 IDADE\cf1\b 
+\par \cf0\b0 CLIENTE CITA IDADE PARA VEICULOS 
+\par \cf1\b 034 - Atributo: \cf2\b0 MARCA\cf1\b 
+\par \cf0\b0 MODELOS CITA MARCA
+\par 
+\par \cf1\b 035 - Atributo: \cf2\b0 MARCA\cf1\b 
+\par \cf0\b0 VEICULO CITA MARCA
+\par 
+\par \cf1\b 036 - Entidade: \cf2\b0 MARCAS\cf1\b 
+\par \cf0\b0 VEICULO TEM MARCAS QU E CITADO: ANO LANCADO, PAIS, DATA FABRICACAO, FABRICANTE, CRIADOR
+\par 
+\par \cf1\b 037 - Entidade: \cf2\b0 MODELOS\cf1\b 
+\par \cf0\b0 MARCAS CONTEM MODELOS QUE E CITADO: TIPO, MARCA, ANO, QUALIDADE,COR
+\par 
+\par \cf1\b 038 - Atributo: \cf2\b0 NOME\cf1\b 
+\par \cf0\b0 FUNCIONARIOS CITA NOME
+\par 
+\par \cf1\b 039 - Atributo: \cf2\b0 NOME\cf1\b 
+\par \cf0\b0 PECAS CITA NOME
+\par 
+\par \cf1\b 040 - Atributo: \cf2\b0 NOME\cf1\b 
+\par \cf0\b0 CLIENTE CITA NOME PARA VEICULO
+\par 
+\par \cf1\b 041 - Rela\f1\'e7\'e3o: \cf2\b0 OBTEM\cf1\b 
+\par \cf0\b0\f0 ORDENS DE SERVICO OBTEM PAGAMENTOS
+\par 
+\par \cf1\b 042 - Entidade: \cf2\b0 ORDENS_SERVI\f1\'c7OS\cf1\b 
+\par \cf0\b0\f0 PECAS FAZ ORDENS DE SERVICOS: HORARIO, HORAS TRABALHADAS, PRAZO, TIPO SERVICOS, HORARIO ENTRGAS
+\par 
+\par \cf1\b 043 - Entidade: \cf2\b0 PAGAMENTOS\cf1\b 
+\par \cf0\b0 ORDENS SERVICOS OBTEM PAGAMENTOS: DEBITO, CREDITO, PIX, BOLETO,DINHEIRO
+\par 
+\par \cf1\b 044 - Atributo: \cf2\b0 PAIS\cf1\b 
+\par \cf0\b0 MARCAS CITA PAIS
+\par 
+\par \cf1\b 045 - Atributo: \cf2\b0 PAIS_ORIGEM\cf1\b 
+\par \cf0\b0 VEICULO CITA PAIS ORIGEM
+\par 
+\par \cf1\b 046 - Entidade: \cf2\b0 PECAS\cf1\b 
+\par \cf0\b0 SERVICOS EXISTE PECAS: QUANTIDADE, VALOR, TAMANHO, NOME, QUALIDADE
+\par 
+\par \cf1\b 047 - Atributo: \cf2\b0 PIX\cf1\b 
+\par \cf0\b0 PAGAMENTOS CITA PIX
+\par 
+\par \cf1\b 048 - Atributo: \cf2\b0 PNEUS_NOVOS\cf1\b 
+\par \cf0\b0 SERVICOS CITA PNEUS NOVOS
+\par 
+\par \cf1\b 049 - Rela\f1\'e7\'e3o: \cf2\b0 POSSUI\cf1\b 
+\par \cf0\b0\f0 MODELOS POSSUI FUNCONARIOS
+\par 
+\par \cf1\b 050 - Atributo: \cf2\b0 POTENCIA_MOTOR\cf1\b 
+\par \cf0\b0 VEICULO CITA POTENCIA MOTOR
+\par 
+\par \cf1\b 051 - Atributo: \cf2\b0 PRAZO\cf1\b 
+\par \cf0\b0 ORDENS DE SERVICOS CITA PRAZO
+\par 
+\par \cf1\b 052 - Atributo: \cf2\b0 PRAZO_ESPERADO\cf1\b 
+\par \cf0\b0 CLIENTE CITA PRAZO CLIENTE PARA VEICULO
+\par 
+\par \cf1\b 053 - Rela\f1\'e7\'e3o: \cf2\b0 PRECISA\cf1\b 
+\par \cf0\b0\f0 PAGAMENTOS PRECISA FORNECEDORES
+\par 
+\par \cf1\b 054 - Atributo: \cf2\b0 QUALIDADE\cf1\b 
+\par \cf0\b0  PECAS CITA QUALIDADE
+\par 
+\par \cf1\b 055 - Atributo: \cf2\b0 QUALIDADE\cf1\b 
+\par \cf0\b0 MODELOS CITA QUALIDADE
+\par 
+\par \cf1\b 056 - Atributo: \cf2\b0 QUANTIDADE\cf1\b 
+\par \cf0\b0 PECAS CITA QUANTIDADE
+\par 
+\par \cf1\b 057 - Atributo: \cf2\b0 QUANTIDADE_PECAS\cf1\b 
+\par \cf0\b0 FORNECEDORES CITA QUANTIDADE DE PECAS
+\par 
+\par \cf1\b 058 - Rela\f1\'e7\'e3o: \cf2\b0 RECEBE\cf1\b 
+\par \cf0\b0\f0 CLIENTE E RELACINADO PARA RECEBE VEICULOS
+\par 
+\par \cf1\b 059 - Atributo: \cf2\b0 REPARO_GERAL\cf1\b 
+\par \cf0\b0 SERVICO CITA REPARO GERAL
+\par 
+\par \cf1\b 060 - Entidade: \cf2\b0 SERVICOS\cf1\b 
+\par \cf0\b0 FUNCIONARIOS ENTRGA SERVICOS QUE TEM: TROCA PECAS, TROCA OLEO, PNEUS NOVOS, TROCAS VELAS, REPARO GERAL
+\par 
+\par \cf1\b 061 - Atributo: \cf2\b0 TAMANHO\cf1\b 
+\par \cf0\b0 PECAS CITA TAMANHO
+\par 
+\par \cf1\b 062 - Rela\f1\'e7\'e3o: \cf2\b0 TEM\cf1\b 
+\par \cf0\b0\f0 VEICULO TEM MARCAS
+\par 
+\par \cf1\b 063 - Atributo: \cf2\b0 TIPO\cf1\b 
+\par \cf0\b0 MODELOS CITA TIPO
+\par 
+\par \cf1\b 064 - Atributo: \cf2\b0 TIPO_SERVICO\cf1\b 
+\par \cf0\b0 ORDENS SERVICOS CITA TIPO SERVICOS
+\par 
+\par \cf1\b 065 - Atributo: \cf2\b0 TROCA_OLEO\cf1\b 
+\par \cf0\b0 SERVICOS CITA TROCA DE OLEO
+\par 
+\par \cf1\b 066 - Atributo: \cf2\b0 TROCA_PECA\cf1\b 
+\par \cf0\b0 SERVICOS CITA TROCA DE PECAS
+\par 
+\par \cf1\b 067 - Atributo: \cf2\b0 TROCA_VELAS\cf1\b 
+\par \cf0\b0 SERVICOS CITA TROCA DE VELAS
+\par 
+\par \cf1\b 068 - Atributo: \cf2\b0 VALOR\cf1\b 
+\par \cf0\b0 PECAS CITA VALOR
+\par 
+\par \cf1\b 069 - Entidade: \cf2\b0 VEICULOS\cf1\b 
+\par \cf0\b0 CLIENTE RECEBE VEICULOS TEM QUE CITAR A MARCA, POTENCIA MOTOR, ANO FABRICADO, PAIS ORIGEM, DATA COMPRADA
+\par 
+\par \cf1\b 070 - Atributo: \cf2\b0 id_cliente\cf1\b 
+\par \cf0\b0 CLIENTE TEM QUE DIZER IDADE, CPF, ENDERECO, PRAZO DESEJADO, NOME
+\par 
+\par \cf1\b 071 - Atributo: \cf2\b0 id_fornecedores\cf1\b 
+\par \cf0\b0 PAGAMENTOS PRECISA FORNECEDORES: ENDERECO, DATA PEDIDO, DATA ENTREGA, GARANTIA, QUANTIDADE PECAS
+\par 
+\par \cf1\b 072 - Atributo: \cf2\b0 id_funcionarios\cf1\b 
+\par \cf0\b0 MODELOS POSSUI FUNCIONARIOS QUE TEM: DATA NASCIMENTO, HORARIO TRABALHO, CPF, NOME, CARGO
+\par 
+\par \cf1\b 073 - Atributo: \cf2\b0 id_marcas\cf1\b 
+\par \cf0\b0 VEICULO TEM MARCAS QUE CITADO: ANO LANCADO, PAIS, DATA FABRICACAO, FABRICANTE, CRIADOR
+\par 
+\par \cf1\b 074 - Atributo: \cf2\b0 id_modelos\cf1\b 
+\par \cf0\b0 MARCAS CONTEM MODELOS QUE E CITADO: TIPO, MARCA, ANO, QUALIDADE,COR
+\par 
+\par \cf1\b 075 - Atributo: \cf2\b0 id_ordens_servicos\cf1\b 
+\par \cf0\b0 PECAS FAZ ORDENS DE SERVICOS: HORARIO, HORAS TRABALHADAS, PRAZO, TIPO SERVICOS, HORARIO ENTRGAS
+\par 
+\par \cf1\b 076 - Atributo: \cf2\b0 id_pagamentos\cf1\b 
+\par \cf0\b0 ORDENS SERVICOS OBTEM PAGAMENTOS: DEBITO, CREDITO, PIX, BOLETO,DINHEIRO
+\par 
+\par \cf1\b 077 - Atributo: \cf2\b0 id_pecas\cf1\b 
+\par \cf0\b0 SERVICOS EXISTE PECAS: QUANTIDADE, VALOR, TAMANHO, NOME, QUALIDADE
+\par 
+\par \cf1\b 078 - Atributo: \cf2\b0 id_servicos\cf1\b 
+\par \cf0\b0 FUNCIONARIOS ENTRGA SERVICOS QUE TEM: TROCA PECAS, TROCA OLEO, PNEUS NOVOS, TROCAS VELAS, REPARO GERAL
+\par 
+\par \cf1\b 079 - Atributo: \cf2\b0 id_veiculos\cf1\b 
+\par \cf0\b0 CLIENTE RECEBE VEICULOS TEM QUE CITAR A MARCA, POTENCIA MOTOR, ANO FABRICADO, PAIS ORIGEM, DATA COMPRADA
+\par 
+\par 
+\par }
+ 
