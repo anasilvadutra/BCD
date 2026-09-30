@@ -29,11 +29,12 @@ INSERT INTO cliente (NOME,EMAIL,TELEFONE,CIDADE,ATIVO) VALUES
 ('ALICE', 'ALICE@email.com',NULL, 'Limeira', TRUE);
 
 -- 5. Crie um novo pedido para um dos clientes cadastrados.
+INSERT INTO pedido (DATA_PEDIDO, STATUS, VALOR_TOTAL, ID_CLIENTE) VALUES
+(NOW(),'ABERTO',0.00,4);
 
-
+SELECT * FROM pedido;
 -- 6. Use LAST_INSERT_ID() para guardar o id do pedido em @pedido_atividade
 --    e insira pelo menos dois itens nesse pedido.
-
 SET @pedido = LAST_INSERT_ID();
 SELECT @pedido;
 
@@ -59,20 +60,25 @@ WHERE ID_CLIENTE = 3;
 
 
 -- 10. Altere o status do pedido criado para 'PREPARANDO'.
-
+UPDATE pedido
+SET VALOR_TOTAL = 84.38,
+    STATUS = 'REPARANDO'
+WHERE ID_PEDIDO = @pedido; 
 
 -- 11. Atualize valor_total do pedido de acordo com os itens cadastrados.
 --     Você pode calcular previamente com SELECT SUM(quantidade * preco_unitario).
 
 
 -- 12. Escolha um dos produtos criados e faça uma exclusão lógica (ativo = FALSE).
-
+UPDATE produto
+SET ATIVO = FALSE
+WHERE ID_PRODUTO = 19;
 
 -- PARTE C - DELETE
 
 -- 13. Crie um cliente de teste sem pedidos.
 --     Depois localize e exclua apenas esse cliente.
-
+DELETE FROM cliente;
 
 -- 14. Tente excluir um cliente da base original que possua pedidos.
 --     Deixe o DELETE comentado após o teste e descreva o erro abaixo.
