@@ -44,7 +44,8 @@ DATA_ENTREGA varchar(60) not null
 );
 
 create table PROGRAMA_FIDELIDADE (
-ID_PROGRAMA_FIDELIDADE int
+ID_PROGRAMA_FIDELIDADE) int auto_increment primary key; 
+
 
 
 show tables; 

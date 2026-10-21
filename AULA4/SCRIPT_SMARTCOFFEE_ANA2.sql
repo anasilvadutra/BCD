@@ -1,3 +1,4 @@
+-- Active: 1788351675293@@127.0.0.1@3306@smartcoffee_ana
 -- PROJETO SMARTCOFFEE
 
 create database SMARTCOFFEE_ANA;
