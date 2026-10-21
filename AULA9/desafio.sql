@@ -90,7 +90,6 @@ SELECT SUM(VALOR_TOTAL) AS FATURAMENTO_MENSAL
 FROM pedido
 WHERE STATUS = 'ABERTO'
 
-
 -- 16. Crie uma categoria temporária chamada 'Excluir Depois' e remova-a.
 
 
